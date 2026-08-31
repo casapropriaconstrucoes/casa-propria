@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Casa Própria Engenharia",
+  "description": "Site institucional da Casa Própria Engenharia e Construções, focado em alta conversão e design moderno para o setor de engenharia civil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
