@@ -14,6 +14,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import { motion, AnimatePresence } from 'motion/react';
+import logoImg from './assets/images/logo.png';
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -64,7 +65,7 @@ export default function App() {
           >
             <div className="w-28 h-28 md:w-36 md:h-36 rounded-2xl bg-white p-3.5 flex items-center justify-center shadow-2xl border border-white/20">
               <img 
-                src="/logo.png" 
+                src={logoImg}
                 alt="Casa Própria Engenharia e Construções" 
                 className="w-full h-full object-contain"
                 referrerPolicy="no-referrer"
