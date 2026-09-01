@@ -17,12 +17,6 @@ export default function Hero() {
           style={{ y: yBg }} 
           className="absolute -top-[30%] -left-[10%] w-[120%] h-[130%]"
         >
-          <img 
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" 
-            alt="Engineering Structure" 
-            referrerPolicy="no-referrer"
-            className="w-full h-full object-cover filter brightness-[0.35] contrast-125 grayscale"
-          />
           <div className="absolute inset-0 bg-grid-pattern-dark opacity-50" />
         </motion.div>
       </div>
