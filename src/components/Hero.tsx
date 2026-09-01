@@ -46,12 +46,6 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="inline-flex items-center gap-3 mb-6 bg-white/5 border border-white/10 px-3.5 py-1.5 rounded-full backdrop-blur-sm"
           >
-            <img 
-              src="/logo.png" 
-              alt="Logo Casa Própria" 
-              className="w-5 h-5 object-contain"
-              referrerPolicy="no-referrer"
-            />
             <div className="w-1.5 h-1.5 rounded-full bg-accent-500" />
             <span className="font-mono text-xs md:text-sm text-accent-500 uppercase tracking-[0.2em] font-bold">
               Casa Própria Engenharia & Construções
