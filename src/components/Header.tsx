@@ -36,7 +36,7 @@ export default function Header() {
           
           <a href="#" className="flex items-center relative z-50 group py-1" aria-label="Casa Própria Engenharia e Construções">
             <img 
-              src="/logo.png" 
+              src={logoImg} 
               alt="Casa Própria Engenharia e Construções LTDA" 
               className={`w-auto object-contain transition-all duration-300 group-hover:scale-[1.03] drop-shadow-sm ${
                 scrolled 
