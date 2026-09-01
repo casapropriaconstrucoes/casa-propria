@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, ArrowRight } from 'lucide-react';
-import logoImg from '../assets/logo.png';
+import logoImg from '../assets/images/logo.png';
 const NAV = [
   { n: 'Especialidades', h: '#especialidades' },
   { n: 'Metodologia', h: '#metodologia' },
