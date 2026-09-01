@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, ArrowRight } from 'lucide-react';
-
+import logoImg from '../assets/logo.png';
 const NAV = [
   { n: 'Especialidades', h: '#especialidades' },
   { n: 'Metodologia', h: '#metodologia' },
@@ -88,7 +88,7 @@ export default function Header() {
             <div className="flex flex-col gap-6 max-w-lg mx-auto w-full">
               <div className="flex justify-center pb-4 border-b border-eng-100">
                 <img 
-                  src="/logo.png" 
+                  src={logoImg}
                   alt="Casa Própria Engenharia e Construções" 
                   className="h-16 w-auto object-contain"
                   referrerPolicy="no-referrer"
